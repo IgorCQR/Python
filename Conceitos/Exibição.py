@@ -33,3 +33,7 @@ print(age)
 #(str -> bool) a variavel ficará como FALSE apenas se NÃO houver caracter
 name = bool(name)
 print(name)
+
+#IS vai verificar se a variavel é ou não algo (TRUE or FALSE)
+n = input('Informe algo')
+print(n.isnumeric())

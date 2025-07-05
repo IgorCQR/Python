@@ -8,6 +8,6 @@ else:
 numero = int(input("Informe um valor: "))
 
 if numero % 2 == 0: # RESTO DA DIVISAO % 
-    print("O número é par!")
+    print("O número {} é par!" .format(numero))
 else:
-    print("O número é impar!")
+    print("O número {} é impar!" .format(numero))
