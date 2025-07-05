@@ -1,7 +1,8 @@
 goss = 50
 lonf = 5.5
 
-print("Is this a number:", goss, ". And a other number", lonf) #Important: não concatene string e variavel utilizando +
+# END='' junta linhas 
+print("Is this a number:", goss, ". And a other number", lonf, end=' >>> ') #Important: não concatene string e variavel utilizando +
 
 print(f"Number one: {goss + lonf}") #operações com variaveis utilizando o F
 
@@ -35,5 +36,9 @@ name = bool(name)
 print(name)
 
 #IS vai verificar se a variavel é ou não algo (TRUE or FALSE)
-n = input('Informe algo')
+n = input('Informe algo: ')
 print(n.isnumeric())
+
+nome = input('Diga seu nome: ') # \n quebra a linha 
+print('Prazer em te conhecer, \n {:10}!'.format(nome)) # modifica a formatação da stro
+
