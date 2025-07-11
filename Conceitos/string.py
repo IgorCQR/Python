@@ -32,7 +32,7 @@ print(frase2.lstrip()) # a mesma coisa, mas somente á esquerda
 print(frase.split()) # separa a cadeia em uma lista (é possivel mudar a forma de SPLIT)
 
 # JUNCAO
-print('-'.join(frase.split())) # junta a lista do SPLIT (junçao fica ao seu criterio)
+print('-'.join(frase.split())) # junta a lista do SPLIT (junçao fica a seu criterio)
 
 # EXTRA
 dividido = frase.split()
