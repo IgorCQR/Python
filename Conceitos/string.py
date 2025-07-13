@@ -12,7 +12,7 @@ print(frase[::2])
 print(len(frase)) # tamanho da string (caracteres)
 print(frase.count('o',0,14)) # conta letras e faz fatiamento (cuidado com maiuscula e minuscula)
 print(frase.find('deo')) # encontra a posicao de inicio de uma cadeia de caracter
-print(frase.find('Android')) # caracter inexistente RETORNAM -1
+print(frase.find('Android')) # caracter inexistente RETORNA -1
 print('Curso' in frase) # mesmo esquema do FIND, mas retorna True e False
 
 
