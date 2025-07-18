@@ -2,8 +2,8 @@ print('=-='*20)
 print('EMPRESTIMO BANCARIO')
 print('=-='*20)
 
-casa = float(input('Qual o valor do imóvel? '))
-salario = float(input('Qual o seu salário? '))
+casa = float(input('Qual o valor do imóvel? R$'))
+salario = float(input('Qual o seu salário? R$'))
 anos = int(input('Em quantos anos deseja realizar o pagamento? '))
 
 parcela = anos * 12
