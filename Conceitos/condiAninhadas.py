@@ -1,6 +1,6 @@
 nome = input('Qual é o seu nome: ').capitalize().strip()
 
-#NÃO use mais de um IF e ELSE (ELSE é opcional)
+#É possivel colocar um IF dentro do outro(ELSE é opcional)
 if nome == 'Gustavo' or nome == 'Igor':
     print('Belo nome!')
 elif nome == 'Pedro' or nome == 'Maria' or nome == 'Paulo': # estrutura aninhada é feita com ELIF (coloque quantos forem necessarios)
