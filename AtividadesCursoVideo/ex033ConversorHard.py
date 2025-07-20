@@ -2,7 +2,8 @@ print('CONVERSOR NUMERICO')
 
 n = int(input('Informe um número: '))
 
-base = int(input(('\n 1-binário \n 2-octal \n 3-hexadecimal \n Qual a base de conversão? ')))
+print('Escolha uma opção: \n 1-binário \n 2-octal \n 3-hexadecimal')
+base = int(input(('Qual a base de conversão? ')))
 
 contador = 0
 b = 0 
@@ -11,7 +12,7 @@ if base == 1:
         b = n % 2
         n = n // 2
         contador += 1
-        lista = [b] * contador
+        lista = [b]* contador
         print(f'Numero binario: {b} em lista {lista}') # Funciona parcialmente, precisa ordenar o binario
 elif base == 2:
     print()
